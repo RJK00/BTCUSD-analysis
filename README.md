@@ -1,6 +1,6 @@
-#First analysis of a semi-risk adjusted trading strategy (BTCUSD)
+## irst analysis of a semi-risk adjusted trading strategy (BTCUSD)
 
-#Introduction:
+### Introduction:
 Introduced by a faceless Satoshi Nakamoto in a 2008 whitepaper as a “Peer - to - Peer Electronic Cash System, 
 Bitcoin and its corresponding market has since experienced multiple 80%+ crashes followed by equally dramatic 
 recoveries and head-turning all time highs during periods of volatile price discovery. 
@@ -18,11 +18,11 @@ seek to experiment with components of a more risk on strategy, with the assumpti
 where price is ranging and that during those periods, price action reflects the psychology of novice traders with highly leveraged positions. 
 
 
-#Some limitations identified in the first analysis:
+### Some limitations identified in the first analysis:
 
-- This is a strategy that would be the most effective in ranging to locally trending markets - but not in highly trending markets.
+ * This is a strategy that would be the most effective in ranging to locally trending markets - but not in highly trending markets.
 
-- As with all most high turnover strategies, it will be impossible to maintain a consistent alpha(edge) - since each trade 
+ *As with all most high turnover strategies, it will be impossible to maintain a consistent alpha(edge) - since each trade 
 utilizing this strategy will serve as another input to be analysed in the corresponding market according to the Efficient Market Hypothesis.
 The spread for this particular strategy, even if proven effective under various market conditions, will inevitably thin 
 and likely invert over time. Smaller, staggered entries/exits, and smaller position sizes will yield lower returns on average, 
@@ -31,26 +31,26 @@ but it may help in maintaining the edge over a longer timeframe.
 
 
 
-#Other risks or opportunities to be explored:
+### Other risks or opportunities to be explored:
 
--Arbitrage 
-	*Low risk low reward
-	*Slippages and frontrunning
+* Arbitrage 
+	* Low risk low reward
+	* Slippages and frontrunning
 
--Further risks
-	*Counterparty exposure
-		*Exchanges
-			*Ethical concerns: Exchanges that offer derivatives, mainly highly leveraged perpetual products, 
+* Further risks
+	* Counterparty exposure
+		* Exchanges
+			* Ethical concerns: Exchanges that offer derivatives, mainly highly leveraged perpetual products, 
 			may benefit from customer liquidations because a small portion of each position margin (0.05% for BTC pairs) 
 			is transferred to the respective “insurance funds” by the liquidation engines to subsidize unforseen losses 
 			due to slippages. It is unclear how the insurance funds are treated on the exchanges’ balance sheets, or 
 			whether these entities can or do borrow against their customers’ insurance funds in some form.
 
--Additional opportunities for optimization:
-	*Various hedging methods through a combination of spot and corresponding derivatives products 
-	*Position sizing
-	*Laddering entries and profits
-	*Other indicators (consensus = increased probability of significant price movement)
+* Additional opportunities for optimization:
+	* Various hedging methods through a combination of spot and corresponding derivatives products 
+	* Position sizing
+	* Laddering entries and profits
+	* Other indicators (consensus = increased probability of significant price movement)
 
 
 
