@@ -1,4 +1,4 @@
-## irst analysis of a semi-risk adjusted trading strategy (BTCUSD)
+## First analysis of a semi-risk adjusted trading strategy (BTCUSD)
 
 ### Introduction:
 Introduced by a faceless Satoshi Nakamoto in a 2008 whitepaper as a “Peer - to - Peer Electronic Cash System, 
