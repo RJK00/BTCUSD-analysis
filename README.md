@@ -4,7 +4,7 @@ As of October 2022, some parts of this repository is deprecated due to the disco
 
 ### What Does This Mean?
 - Existing code will be replaced with other methods to pull market data from different sources [Working]
-- For more information see [Other risks or opportunities to be explored](#-other-risks-or-opportunities-to-be-explored) and *Counterparty exposure*
+- For more information see [Other risks or opportunities to be explored](#other-risks-or-opportunities-to-be-explored) and *Counterparty exposure*
 - For even more info go to: https://en.wikipedia.org/wiki/Bankruptcy_of_FTX
 ---
 
